@@ -1,0 +1,2 @@
+curl -L christitus.com/bypass -o skip.cmd
+skip.cmd
