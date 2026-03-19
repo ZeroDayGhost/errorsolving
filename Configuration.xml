@@ -11,3 +11,7 @@
   <Property Name="AUTOACTIVATE" Value="1" />
   <Updates Enabled="TRUE" />
 </Configuration>
+
+
+
+setup /configure configuration.xml
