@@ -1,0 +1,3 @@
+DISM /Online /Cleanup-Image /AnalyzeComponentStore
+
+DISM /Online /Cleanup-Image /StartComponentCleanup
